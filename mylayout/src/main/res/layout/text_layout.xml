@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:id="@+id/root_view"
+    android:background="#827193"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/header_left_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:src="@drawable/ic_daily_comment"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/header_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:lines="1"
+        android:maxLines="11"
+        android:ellipsize="end"
+        android:text="title"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:id="@+id/header_right_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_daily_like"
+        android:scaleType="fitCenter"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"/>
+</RelativeLayout>

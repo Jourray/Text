@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.mylayout.MyViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/lsitone"
+        android:background="@drawable/ic_daily_like"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/lsittwo"
+        android:background="@drawable/ic_daily_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/lsitthree"
+        android:background="@drawable/ic_daily_like"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.example.mylayout.MyViewPager>
